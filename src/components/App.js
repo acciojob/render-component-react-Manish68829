@@ -1,11 +1,12 @@
 import React, {Component, useState} from "react";
 import '../styles/App.css';
-import Sentence from "./Sentence";
+
 
 const App = () => {
   return ( 
-    <div id="main">fdsfdsf
-      <Sentence></Sentence>
+    <div id="main">
+      <p>I am learning React. My life is getting better.</p>
+
     </div>
   )
 }
